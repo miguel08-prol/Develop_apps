@@ -93,8 +93,8 @@ class PerfilPage extends StatelessWidget {
                           avatarUrl,
                           width: 112,
                           height: 112,
-                          fit: BoxFit.cover,
                           errorBuilder: (context, error, stackTrace) =>
+                          fit: BoxFit.cover,
                               const Icon(Icons.person, size: 60, color: primaryBlue),
                         ),
                       ),
@@ -107,7 +107,7 @@ class PerfilPage extends StatelessWidget {
 
             // Nome e Subtítulo
             const Text(
-              'Seu Nome',
+              'Miguel Massane',
               style: TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
